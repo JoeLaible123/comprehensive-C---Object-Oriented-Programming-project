@@ -1,10 +1,4 @@
 //Joseph I Laible
-// Professor Jonathan S. Weissman
-// Cis 554 Object Oriented Programming in C++
-// Syracuse University 
-// text ref - C++ How to program 10th ed, Paul & Harvey Deitel 
-//Final project
-//3/14/2024
 // This program can be used to help calculate account values based on fixed intrest rates 
 // This is the header ".h" file  for class base class WW1_Major_Figure
 
