@@ -1,10 +1,4 @@
 //Joseph I Laible
-// Professor Jonathan S. Weissman
-// Cis 554 Object Oriented Programming in C++
-// Syracuse University 
-// text ref - C++ How to program 10th ed, Paul & Harvey Deitel 
-//Final project
-//3/14/2024
 // This program can be used to help calculate account values based on fixed intrest rates 
 // This is the main .cpp file for the project (Final_Project). 
 
@@ -196,7 +190,7 @@ int main()
 	WW1_Major_Figure ww1Figure_Franz_F("Franz", "Ferdinand", 1863, 1914, "Austria");
 	WW1_Major_Figure ww1Figure_Franz_J("Franz", "Joseph", 1830, 1916, "Austria");
 	WW1_Major_Figure ww1Figure_Mehmed("Resad", "Mehmed II", 1844, 1918, "Turkey");
-	WW1_Major_Figure ww1Figure_Mustafa("Mustafa", "Kemal- Atatürk", 1881, 1938, "Greece");
+	WW1_Major_Figure ww1Figure_Mustafa("Mustafa", "Kemal- AtatÃ¼rk", 1881, 1938, "Greece");
 
 	//create derived class Entente Objects
 	Entente E_ww1Figure_Pershing("John", "Pershing", 1860, 1948, "USA", "General");
@@ -219,7 +213,7 @@ int main()
 	Central_Powers CP_ww1Figure_Franz_F("Franz", "Ferdinand", 1863, 1914, "Austria", "Arch-Duke");
 	Central_Powers CP_ww1Figure_Franz_J("Franz", "Joseph", 1830, 1916, "Austria", "Emperor");
 	Central_Powers CP_ww1Figure_Mehmed("Resad", "Mehmed II", 1844, 1918, "Turkey", "Caliph-Sultan");
-	Central_Powers CP_ww1Figure_Mustafa("Mustafa", "Kemal-Atatürk", 1881, 1938, "Greece", "Field Officer");
+	Central_Powers CP_ww1Figure_Mustafa("Mustafa", "Kemal-AtatÃ¼rk", 1881, 1938, "Greece", "Field Officer");
 
 	//create 2nd level derived class obj VictoryAdditions from deriveed class Enetente
 	Victory_Additions V_E_ww1Figure_Pershing("John", "Pershing", 1860, 1948, "USA", "General", "As the primary commander of the AEF.");
@@ -241,7 +235,7 @@ int main()
 	Defeat_Additions D_CP_ww1Figure_Franz_F("Franz", "Ferdinand", 1863, 1914, "Austria", "Arch-Duke", "Died-Started the entire thing");
 	Defeat_Additions D_CP_ww1Figure_Franz_J("Franz", "Joseph", 1830, 1916, "Austria", "Emperor", "Refused to yield control of the multinational empire, although impossible to sustain a conntinual war, he continued the fight eventually disolving the empire");
 	Defeat_Additions D_CP_ww1Figure_Mehmed("Resad", "Mehmed II", 1844, 1918, "Turkey", "Caliph-Sultan", "Commitment to a Jihad across the empire, streching resources across all lands within the large ottoman state, depleting resources in the balkans and middle east, limiting offensive cabailites to assist allies");
-	Defeat_Additions D_CP_ww1Figure_Mustafa("Mustafa", "Kemal-Atatürk", 1881, 1938, "Greece", "Field Officer", "let officer sentinment to turn prioirties to the Turkish state instaed of imperail possesions");
+	Defeat_Additions D_CP_ww1Figure_Mustafa("Mustafa", "Kemal-AtatÃ¼rk", 1881, 1938, "Greece", "Field Officer", "let officer sentinment to turn prioirties to the Turkish state instaed of imperail possesions");
 
 	//create base class pointers to derived class objcs
 	// 
