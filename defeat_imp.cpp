@@ -1,10 +1,4 @@
 //Joseph I Laible
-// Professor Jonathan S. Weissman
-// Cis 554 Object Oriented Programming in C++
-// Syracuse University 
-// text ref - C++ How to program 10th ed, Paul & Harvey Deitel 
-//Final project
-//3/14/2024
 // This is the  ".cpp" implemenation file  for 2nd derived class Defeat_Additions
 #include "Central.h"
 #include "WW1_Major_Figure.h"
